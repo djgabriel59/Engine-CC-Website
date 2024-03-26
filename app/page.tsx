@@ -58,7 +58,9 @@ export default function Home() {
         >
           Calculate
         </button>
-        <div className="pt-5 text-white font-bold">Result: {cc}cc</div>
+        <div className="pt-5 text-gray-900 dark:text-white font-bold">
+          Result: {cc}cc
+        </div>
       </form>
     </main>
   );
